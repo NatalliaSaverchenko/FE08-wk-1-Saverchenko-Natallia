@@ -1,10 +1,9 @@
-.awesome_container {
-  /* назвала через контейнеры, иначе путаюсь во вложенности*/
-  width: 350 px;
-}
+/* .awesome_container {
+ 
+  width: 350px;} */
 
 .awesome_title {
-  margin-bottom: 25 px;
+  margin-bottom: 25px;
 }
 
 .awesome_line {
@@ -22,7 +21,7 @@
   color: #86878b;
 }
 .awesome_row_container {
-  width: 350 px;
+  width: 350px;
 }
 .awesome_row_item {
   width: 350px;
