@@ -4,6 +4,7 @@
 
 .awesome_title {
   margin-bottom: 25px;
+  text-align: center;
 }
 
 .awesome_line {
@@ -19,12 +20,16 @@
 .awesome_text {
   margin-bottom: 67px;
   color: #86878b;
+  text-align: center;
 }
 .awesome_row_container {
-  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
 }
 .awesome_row_item {
   width: 350px;
+  margin: 0 15px;
 }
 .image_container {
   border: 1px solid #d98943;
@@ -33,13 +38,16 @@
   height: 70px;
   margin: auto;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.awesome_row_item_image {
-  margin: 17px;
-}
+/*.awesome_row_item_image {
+}*/
 .awesome_row_item_title {
   margin-bottom: 16px;
+  text-align: center;
 }
 .awesome_row_item_text {
-  margin-bottom: 25px; /* задала сама, т.к. в столбик элементы*/
+  text-align: center;
 }
