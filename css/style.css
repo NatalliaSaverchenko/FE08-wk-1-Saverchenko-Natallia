@@ -1,4 +1,6 @@
 @import url(/css/awesome.css);
+@import url(/css/pricing.css);
+@import url(/css/bg.css);
 
 * {
   margin: 0;
@@ -14,4 +16,8 @@ section {
   max-width: 1170px;
   margin: auto;
   padding: 0 15px;
+}
+html {
+  font-size: 16px;
+  font-family: 'OpenSans', 'Raleway', sans-serif;
 }
