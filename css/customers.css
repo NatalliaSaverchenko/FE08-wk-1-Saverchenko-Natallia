@@ -1,0 +1,103 @@
+.customers {
+  padding-top: 80px;
+}
+/*.customers-intro-title {
+  margin-top: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+}*/
+.customers-intro-title::after {
+  content: '';
+  width: 64px;
+  height: 2px;
+  border-top: 1px solid #e72424;
+  background-color: #e72424;
+  display: block;
+  margin: 34px auto;
+}
+
+.customers-intro-text {
+  margin-bottom: 67px;
+  font-family: 'OpenSans';
+  font-weight: 400;
+  font-size: 14px;
+  color: #86878b;
+  text-align: center;
+}
+.speach {
+  position: relative;
+  width: 298px;
+  background: #e2e2e2;
+  border-radius: 7px;
+  text-align: center;
+  padding: 9px 22px 6px 23px;
+  margin-bottom: 22px;
+}
+.speach {
+  font-family: 'OpenSans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #86878b;
+}
+.speach::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 17px solid transparent;
+  border-right: 17px solid transparent;
+  border-top: 17px solid #e2e2e2;
+  margin-right: 45px;
+}
+.customers-saying {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 -15px;
+}
+.saying_card {
+  width: 298px;
+  margin: 0 15px;
+}
+.expert {
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items: center;
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.avatar_name {
+  margin-bottom: 24px;
+
+  font-family: 'OpenSans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #333333;
+}
+.avatar_specialist {
+  font-family: 'OpenSans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+  color: #86878b;
+}
