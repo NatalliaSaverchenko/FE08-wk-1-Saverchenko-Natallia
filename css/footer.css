@@ -1,0 +1,61 @@
+.footer-svg-list {
+  padding-top: 30px;
+  text-align: center;
+}
+.svg-list_icon {
+  display: inline-block;
+  font-family: 'Font Awesome 5 Brands';
+  font-size: 23px;
+  font-weight: 700;
+  color: white;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.facebook::before {
+  content: '\f39e';
+}
+.twitter::before {
+  content: '\f099';
+}
+.google-plus-g::before {
+  content: '\f0d5';
+}
+.pinterest::before {
+  content: '\f0d2';
+}
+.instagram::before {
+  content: '\f16d';
+}
+.stumbleupon::before {
+  content: '\f1a4';
+}
+.rss::before {
+  content: '\f09e';
+  font-family: 'Font Awesome 5 Free';
+}
+.svg-list_icon:last-child {
+  margin-right: 0;
+}
+.footer {
+  background-color: black;
+}
+.footer_text {
+  padding-top: 18px;
+  padding-bottom: 15px;
+  font-family: 'OpenSans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+.svg-list_icon:hover {
+  color: blueviolet;
+  transition: 0.3s, ease-in-out, 0, 8s;
+}
+.svg-list_icon:active {
+  font-size: 25px;
+  transform: translate(20px, 20px);
+  color: aquamarine;
+  transition: all, 0.3s, ease-in-out, 0, 8s;
+}

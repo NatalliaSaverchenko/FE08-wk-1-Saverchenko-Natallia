@@ -41,6 +41,17 @@
   /*height: 467px;*/
   margin: 0 15px;
 }
+.block-two:hover {
+  transform: translate(0, -40px);
+  transition: 1s ease-in;
+}
+.block-one:hover {
+  transform: rotate(360deg);
+  transition: 4s ease-in-out;
+}
+.block-three:hover {
+  transform: translate(20px, 20px) skew(10deg);
+}
 .tarif_title {
   background: #333333;
   font-family: 'OpenSans';

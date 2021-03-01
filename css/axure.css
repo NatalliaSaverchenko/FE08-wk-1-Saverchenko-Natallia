@@ -44,22 +44,26 @@
   line-height: 19px;
   text-align: center;
   color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 57px;
 }
 
 .button {
+  display: block;
   border: 1px solid #ffffff;
   width: 135px;
-  margin-top: 57px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 42px;
+  padding: 11px 26px 11px 26px;
+  text-align: center;
+  margin: auto;
   cursor: pointer;
 }
-.button-text {
-  line-height: 42px;
-  text-align: center;
-  font-family: 'Open Sans';
+.btn {
+  font-family: 'OpenSans';
   font-weight: 600;
   font-size: 15px;
-  text-align: center;
   color: #ffffff;
+}
+.button:hover {
+  background-color: palevioletred;
+  transition: 1s, ease-out, 2s;
 }
