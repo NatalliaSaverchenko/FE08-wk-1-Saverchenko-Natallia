@@ -1,6 +1,8 @@
 .social {
   width: 100%;
   background: #f8efef;
+  padding-top: 14px;
+  padding-bottom: 17px;
 }
 .social-media {
   display: flex;
@@ -41,6 +43,7 @@
   font-family: 'Font Awesome 5 Free';
   font-size: 42px;
   font-weight: 600;
+  transition: 0.5s ease 0.2s;
 }
 .svg-list_item:last-child {
   margin-right: 0;

@@ -1,15 +1,24 @@
-.footer-svg-list {
+.footer {
   padding-top: 30px;
-  text-align: center;
+  padding-bottom: 15px;
+}
+.footer-intro {
+  display: flex;
+  flex-direction: column;
+}
+.footer-svg-list {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: auto;
 }
 .svg-list_icon {
-  display: inline-block;
   font-family: 'Font Awesome 5 Brands';
   font-size: 23px;
   font-weight: 700;
   color: white;
-  vertical-align: middle;
-  margin-right: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .facebook::before {
   content: '\f39e';
@@ -41,7 +50,6 @@
 }
 .footer_text {
   padding-top: 18px;
-  padding-bottom: 15px;
   font-family: 'OpenSans';
   font-weight: 400;
   font-size: 12px;

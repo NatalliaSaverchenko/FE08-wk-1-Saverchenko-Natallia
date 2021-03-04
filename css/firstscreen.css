@@ -1,0 +1,144 @@
+.firstscreen {
+  width: 100%;
+  height: 601px;
+  background-image: url(/image/bg/view.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.firstscreen:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.important-title {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.important-title-color {
+  color: #ec7979;
+}
+.firstscreen_title {
+  width: 544px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.firstscreen_title::after {
+  content: '';
+  display: block;
+  width: 64px;
+  height: 2px;
+  margin-top: 32px;
+  margin-bottom: 39px;
+  border-top: 1px solid #ffffff;
+}
+.firstscreen_description {
+  width: 282px;
+  font-family: 'Raleway';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 39px;
+}
+.button-firstscreen {
+  width: 135px;
+  height: 42px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  padding: 11px 27px 11px 25px;
+}
+.download {
+  font-family: 'OpenSans';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.exit-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exit-content-right {
+  width: 370px;
+  /*height: 370px;*/
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.form-free-title {
+  font-family: 'OpenSans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 56px;
+  color: #333333;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 44px;
+}
+.free {
+  color: #ec7979;
+  text-transform: uppercase;
+}
+.form-intro {
+  padding: 0 59px;
+  margin-bottom: 61px;
+}
+.label {
+  font-family: 'OpenSans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
+}
+.input {
+  display: block;
+  width: 100%;
+  font-family: 'OpenSans';
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+}
+.input_name {
+  line-height: 16px;
+  margin-bottom: 19px;
+}
+.input_email {
+  line-height: 19px;
+  margin-bottom: 16px;
+}
+.input_password {
+  line-height: 19px;
+}
+.button-form {
+  width: 370px;
+  height: 53px;
+  background: #ec7979;
+  border-radius: 0px 0px 8px 8px;
+  font-family: 'OpenSans';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  cursor: pointer;
+}

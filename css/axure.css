@@ -1,6 +1,8 @@
 .axure {
   width: 100%;
   height: 100%;
+  padding-top: 58px;
+  padding-bottom: 38px;
 
   background-image: url(/image/bg/town.png);
   background-repeat: no-repeat;
@@ -15,7 +17,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.55);
   position: absolute;
-  top: -1px;
+  top: 0px;
   left: 0px;
 }
 

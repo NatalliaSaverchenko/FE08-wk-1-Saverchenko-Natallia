@@ -6,6 +6,8 @@
 @import url(/css/navigation.css);
 @import url(/css/social.css);
 @import url(/css/footer.css);
+@import url(/css/firstscreen.css);
+@import url(/css/contact.css);
 
 * {
   margin: 0;

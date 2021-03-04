@@ -1,4 +1,7 @@
-/*.pricing_container{}*/
+.pricing {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
 
 /*.pricing_title {
   margin-top: 80px;
@@ -41,13 +44,21 @@
   /*height: 467px;*/
   margin: 0 15px;
 }
+.block-two {
+  transition: 0.5s ease-in 0.3s;
+}
 .block-two:hover {
   transform: translate(0, -40px);
-  transition: 1s ease-in;
+}
+.block-one {
+  transition: 4s ease-in-out 0.5s;
 }
 .block-one:hover {
   transform: rotate(360deg);
   transition: 4s ease-in-out;
+}
+.block-three {
+  transition: 0.5s ease-in 0.3s;
 }
 .block-three:hover {
   transform: translate(20px, 20px) skew(10deg);
