@@ -62,13 +62,13 @@
   border: 1px solid #ffffff;
   box-sizing: border-box;
   padding: 11px 27px 11px 25px;
+  text-align: center;
 }
 .download {
   font-family: 'OpenSans';
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
-  text-align: center;
   margin: auto;
   color: #ffffff;
 }

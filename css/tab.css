@@ -1,0 +1,96 @@
+.tab {
+  padding-top: 100px;
+  padding-bottom: 205px;
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.tab-row {
+  padding-top: 25px;
+  margin: 0 15px;
+}
+
+.tab-item {
+  width: 112px;
+  height: 110px;
+  border-radius: 4px;
+  background: #333333;
+  padding: 45px 35px;
+  margin-bottom: 10px;
+}
+.tab-item:last-child {
+  margin-bottom: 0;
+}
+.tab-color {
+  background: #ec7979;
+}
+.tab-item-name {
+  font-family: 'OpenSans';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.tab-intro {
+  padding-top: 26px;
+  margin: 0 15px;
+}
+.tab-intro-title {
+  font-family: 'OpenSans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 58px;
+}
+.tab-intro-text {
+  width: 572px;
+
+  font-family: 'OpenSans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #86878b;
+  margin-bottom: 89px;
+}
+.first-part {
+  margin-bottom: 19px;
+}
+.button-download {
+  width: 135px;
+  height: 42px;
+  background: #ec7979;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  padding: 11px 27px 11px 25px;
+  margin: left;
+  text-align: center;
+}
+
+.button-download-link {
+  font-family: 'OpenSans';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.tab-image {
+  width: 320px;
+  height: 253px;
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  margin: 0 15px;
+}
