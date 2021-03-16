@@ -32,7 +32,7 @@
 }
 .speach {
   position: relative;
-  width: 298px;
+  max-width: 298px;
   background: #e2e2e2;
   border-radius: 7px;
   text-align: center;
@@ -67,7 +67,7 @@
   margin: 0 -15px;
 }
 .saying_card {
-  width: 298px;
+  max-width: 298px;
   margin: 0 15px;
 }
 .expert {
@@ -101,4 +101,9 @@
   line-height: 19px;
   text-align: right;
   color: #86878b;
+}
+@media (max-width: 984px) {
+  .saying_card {
+    margin-bottom: 20px;
+  }
 }

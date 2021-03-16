@@ -4,8 +4,10 @@
 }
 .navigation-bar {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 0 -15px;
 }
 .logo {
   width: 68px;
@@ -17,6 +19,7 @@
   text-transform: uppercase;
   padding-top: 20px;
   padding-bottom: 19px;
+  margin: 0 15px;
 }
 .colorlogo {
   color: #ec7979;
@@ -24,8 +27,9 @@
 
 .navigation-block {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 15px;
 }
 .navigation-block_item {
   margin-right: 48px;
@@ -58,3 +62,81 @@
 /*.item:visited {
   color: green;
 }*/
+
+.hidden-menu-ticker {
+  display: none;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .btn-menu {
+    color: #fff;
+    border: 1px solid #ec7979;
+    position: fixed;
+    top: 20px;
+    right: 15px;
+    padding: 7px;
+    cursor: pointer;
+    transition: right 0.23s;
+    z-index: 3;
+    width: 40px;
+    border-radius: 15%;
+  }
+  .btn-menu span {
+    display: block;
+    height: 2px;
+    background-color: #ec7979;
+    margin: 7px 0 0;
+    transition: all 0.1s ease-in-out;
+    position: relative;
+  }
+  .btn-menu span.first {
+    margin-top: 0;
+  }
+  .navigation-block {
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    padding: 60px 15px 15px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 50%;
+    background-color: black;
+    height: 100%;
+    top: 0;
+    right: -50%;
+    transition: right 0.3s;
+    z-index: 2;
+    overflow: hidden;
+  }
+  .navigation-block li {
+    padding: 10px 0;
+    margin-right: 0;
+  }
+  .navigation-block li a {
+    font-size: 15px;
+    color: white;
+    padding: 6px 0px;
+  }
+  .hidden-menu-ticker:checked ~ .btn-menu {
+    right: 50px;
+  }
+  .hidden-menu-ticker:checked ~ .navigation-block {
+    right: 0;
+  }
+  .hidden-menu-ticker:checked ~ .btn-menu span.first {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+  .hidden-menu-ticker:checked ~ .btn-menu span.second {
+    opacity: 0;
+  }
+  .hidden-menu-ticker:checked ~ .btn-menu span.third {
+    transform: rotate(-45deg);
+    top: -9px;
+  }
+}

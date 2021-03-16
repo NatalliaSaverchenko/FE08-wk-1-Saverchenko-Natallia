@@ -40,10 +40,11 @@
 .awesome_row_container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0 -15px;
 }
 .awesome_row_item {
-  width: 350px;
+  max-width: 350px;
   margin: 0 15px;
 }
 .image_container {
@@ -76,4 +77,14 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
+}
+@media (max-width: 1140px) {
+  .awesome_row_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .awesome_row_item {
+    margin-bottom: 20px;
+  }
 }

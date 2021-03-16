@@ -50,22 +50,19 @@
 }
 
 .button {
-  display: block;
-  border: 1px solid #ffffff;
-  width: 135px;
-  height: 42px;
-  padding: 11px 26px 11px 26px;
   text-align: center;
   margin: auto;
-  cursor: pointer;
 }
 .btn {
+  padding: 11px 26px 11px 26px;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
   font-family: 'OpenSans';
   font-weight: 600;
   font-size: 15px;
   color: #ffffff;
 }
-.button:hover {
+.btn:hover {
   background-color: palevioletred;
   transition: 1s, ease-out, 2s;
 }

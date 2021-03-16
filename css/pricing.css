@@ -37,10 +37,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin: 0 -15px;
 }
 .pricing_card_item {
-  width: 340px;
+  max-width: 340px;
   /*height: 467px;*/
   margin: 0 15px;
 }
@@ -72,7 +73,7 @@
   /*line-height: 27px;*/
   padding-top: 15px;
   padding-bottom: 8px;
-  width: 340px;
+  max-width: 340px;
 
   color: #ffffff;
   margin-bottom: 2px;
@@ -87,7 +88,7 @@
   /*line-height: 41px;*/
   text-align: center;
   color: #ffffff;
-  width: 340px;
+  max-width: 340px;
 
   background: #333333;
   margin-bottom: 2px;
@@ -135,4 +136,29 @@
   background: #ffffff;
   margin-top: 4px;
   margin-bottom: 4px;
+}
+@media (max-width: 1109px) {
+  .pricing_card {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .pricing_card_item {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .pricing_card_item {
+    max-width: 320px;
+  }
+  .tarif_free {
+    max-width: 320px;
+  }
+
+  .tarif_free_another {
+    max-width: 320px;
+  }
+  .tarif_item {
+    max-width: 320px;
+  }
 }

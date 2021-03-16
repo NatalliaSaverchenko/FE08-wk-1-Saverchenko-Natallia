@@ -1,18 +1,18 @@
 .tab {
   padding-top: 100px;
-  padding-bottom: 205px;
+  padding-bottom: 100px;
 }
 
 .tab-content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   margin: 0 -15px;
 }
 
 .tab-row {
-  padding-top: 25px;
   margin: 0 15px;
 }
 
@@ -40,7 +40,6 @@
   color: #ffffff;
 }
 .tab-intro {
-  padding-top: 26px;
   margin: 0 15px;
 }
 .tab-intro-title {
@@ -54,7 +53,7 @@
   margin-bottom: 58px;
 }
 .tab-intro-text {
-  width: 572px;
+  max-width: 590px;
 
   font-family: 'OpenSans';
   font-weight: 400;
@@ -65,32 +64,84 @@
   color: #86878b;
   margin-bottom: 89px;
 }
-.first-part {
+.tab-intro-text p {
   margin-bottom: 19px;
 }
-.button-download {
-  width: 135px;
-  height: 42px;
-  background: #ec7979;
-  border: 1px solid #ffffff;
-  box-sizing: border-box;
-  padding: 11px 27px 11px 25px;
-  margin: left;
-  text-align: center;
+.tab-intro-text p:last-child {
+  margin-bottom: 0;
 }
 
 .button-download-link {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  padding: 11px 27px 11px 25px;
+  text-align: center;
+  background: #ec7979;
   font-family: 'OpenSans';
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
+  margin: auto;
   color: #ffffff;
 }
 .tab-image {
-  width: 320px;
-  height: 253px;
+  max-width: 320px;
+  height: auto;
   display: flex;
   justify-content: center;
-  align-self: flex-start;
   margin: 0 15px;
+}
+@media (max-width: 1112px) {
+  .tab-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+  }
+  .tab-row {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .tab-item {
+    margin: 0 15px;
+  }
+
+  .tab-intro {
+    width: 80%;
+  }
+  .tab-intro-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .tab-intro-text {
+    max-width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .button-download-link {
+    display: block;
+    max-width: 135px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 589px) {
+  .tab-row {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .tab-item {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 410px) {
+  .image-building {
+    max-width: 100%;
+  }
 }
